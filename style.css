@@ -86,10 +86,10 @@ ul{
 
 .showcase a:hover{
     opacity: 0.9;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
-.showcase a:hover i{
+.showcase a:hover i, .home-cards .card a:hover i{
     padding-left: 5px;
 }
 
@@ -99,19 +99,16 @@ ul{
     margin-top: 20px;
     display:grid;
     grid-template-columns: repeat(4,1fr);
-    grid-gap: 15px;
-    
-}
-
-.home-cards .card{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
+    grid-column-gap: 15px;
+    grid-row-gap: 50px;
 }
 
 .home-cards .card img{
-    padding-bottom: 30px;
+    width: 100%;
+}
+
+.home-cards .card h3{
+    padding-top: 10px;
 }
 
 .home-cards .card p{
@@ -119,7 +116,7 @@ ul{
 }
 
 .home-cards .card a{
-    color: rgb(3, 52, 151);
+    color: #0067b8;
     font-weight: bold;
-    font-variant-caps: petite-caps;
+    text-transform: uppercase;
 }
