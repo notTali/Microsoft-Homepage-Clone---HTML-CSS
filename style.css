@@ -70,6 +70,7 @@ ul{
     justify-content: end;
     align-items: center;
     padding-bottom: 50px;
+    object-fit: cover;
 }
 
 .showcase p{
@@ -120,3 +121,42 @@ ul{
     font-weight: bold;
     text-transform: uppercase;
 }
+
+
+
+/* Xbox */
+.xbox{
+    background: url("https://i.ibb.co/tBJGPD9/xbox.png") no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.xbox p{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-right: 49%;
+}
+
+.xbox a{
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #000;
+    color: #fff;
+    max-width: 130px;
+}
+
+.xbox a i{
+    margin: 0 5px;
+}
+
+
+
+
+
+
+
